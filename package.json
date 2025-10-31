@@ -1,0 +1,28 @@
+{
+  "name": "projeto-14.hamburgeria.api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7",
+    "uuid": "^13.0.0",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.5",
+    "sequelize-cli": "^6.6.3"
+  },
+  "description": ""
+}
